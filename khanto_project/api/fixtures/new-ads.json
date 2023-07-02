@@ -1,0 +1,29 @@
+[
+    {
+        "model": "api.advertisement",
+        "pk": 1,
+        "fields": {
+            "platform": "Ab",
+            "platform_fee": "10.00",
+            "property": 1
+        }
+    },
+    {
+        "model": "api.advertisement",
+        "pk": 2,
+        "fields": {
+            "platform": "Bk",
+            "platform_fee": "15.00",
+            "property": 2
+        }
+    },
+    {
+        "model": "api.advertisement",
+        "pk": 3,
+        "fields": {
+            "platform": "Ss",
+            "platform_fee": "12.50",
+            "property": 3
+        }
+    }
+]

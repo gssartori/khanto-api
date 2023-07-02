@@ -1,0 +1,67 @@
+[
+    {
+        "model": "api.property",
+        "pk": 1,
+        "fields": {
+            "property_code": "IM001",
+            "guest_limit": 4,
+            "number_of_bathrooms": 2,
+            "accepts_animals": true,
+            "cleaning_fee": "100.00",
+            "activation_date": "2023-01-01",
+            "is_available": true
+        }
+    },
+    {
+        "model": "api.property",
+        "pk": 2,
+        "fields": {
+            "property_code": "IM002",
+            "guest_limit": 6,
+            "number_of_bathrooms": 3,
+            "accepts_animals": false,
+            "cleaning_fee": "150.00",
+            "activation_date": "2023-02-15",
+            "is_available": true
+        }
+    },
+    {
+        "model": "api.property",
+        "pk": 3,
+        "fields": {
+            "property_code": "IM003",
+            "guest_limit": 2,
+            "number_of_bathrooms": 1,
+            "accepts_animals": true,
+            "cleaning_fee": "80.00",
+            "activation_date": "2023-03-10",
+            "is_available": false
+        }
+    },
+    {
+        "model": "api.property",
+        "pk": 4,
+        "fields": {
+            "property_code": "IM004",
+            "guest_limit": 8,
+            "number_of_bathrooms": 4,
+            "accepts_animals": true,
+            "cleaning_fee": "200.00",
+            "activation_date": "2023-04-20",
+            "is_available": true
+        }
+    },
+    {
+        "model": "api.property",
+        "pk": 5,
+        "fields": {
+            "property_code": "IM005",
+            "guest_limit": 3,
+            "number_of_bathrooms": 2,
+            "accepts_animals": false,
+            "cleaning_fee": "120.00",
+            "activation_date": "2023-05-05",
+            "is_available": true
+        }
+    }
+]

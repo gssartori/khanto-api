@@ -1,0 +1,106 @@
+[
+    {
+        "model": "api.reservation",
+        "pk": 1,
+        "fields": {
+            "reservation_code": "RS001",
+            "check_in_date": "2023-01-15",
+            "check_out_date": "2023-01-20",
+            "total_price": "500.00",
+            "comment": "Primeira reserva",
+            "guest_count": 3,
+            "advertisement": 1
+        }
+    },
+    {
+        "model": "api.reservation",
+        "pk": 2,
+        "fields": {
+            "reservation_code": "RS002",
+            "check_in_date": "2023-02-10",
+            "check_out_date": "2023-02-15",
+            "total_price": "600.00",
+            "comment": "",
+            "guest_count": 2,
+            "advertisement": 2
+        }
+    },
+    {
+        "model": "api.reservation",
+        "pk": 3,
+        "fields": {
+            "reservation_code": "RS003",
+            "check_in_date": "2023-03-05",
+            "check_out_date": "2023-03-10",
+            "total_price": "450.00",
+            "comment": "",
+            "guest_count": 4,
+            "advertisement": 3
+        }
+    },
+    {
+        "model": "api.reservation",
+        "pk": 4,
+        "fields": {
+            "reservation_code": "RS004",
+            "check_in_date": "2023-04-01",
+            "check_out_date": "2023-04-10",
+            "total_price": "800.00",
+            "comment": "Reserva longa",
+            "guest_count": 5,
+            "advertisement": 1
+        }
+    },
+    {
+        "model": "api.reservation",
+        "pk": 5,
+        "fields": {
+            "reservation_code": "RS005",
+            "check_in_date": "2023-05-15",
+            "check_out_date": "2023-05-20",
+            "total_price": "550.00",
+            "comment": "",
+            "guest_count": 2,
+            "advertisement": 2
+        }
+    },
+    {
+        "model": "api.reservation",
+        "pk": 6,
+        "fields": {
+            "reservation_code": "RS006",
+            "check_in_date": "2023-06-10",
+            "check_out_date": "2023-06-20",
+            "total_price": "900.00",
+            "comment": "",
+            "guest_count": 6,
+            "advertisement": 3
+        }
+    },
+    {
+        "model": "api.reservation",
+        "pk": 7,
+        "fields": {
+            "reservation_code": "RS007",
+            "check_in_date": "2023-07-05",
+            "check_out_date": "2023-07-10",
+            "total_price": "400.00",
+            "comment": "",
+            "guest_count": 2,
+            "advertisement": 1
+        }
+    },
+    {
+        "model": "api.reservation",
+        "pk": 8,
+        "fields": {
+            "reservation_code": "RS008",
+            "check_in_date": "2023-08-15",
+            "check_out_date": "2023-08-20",
+            "total_price": "650.00",
+            "comment": "",
+            "guest_count": 4,
+            "advertisement": 2
+        }
+    }
+]

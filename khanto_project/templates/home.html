@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projeto Django - Página Inicial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Projeto Django</h1>
+        <p>Este projeto é uma demonstração de APIs REST usando Django e Django Rest Framework.</p>
+
+        <h2>Utilize a descrição para utilização da API abaixo:</h2>
+        
+        <div class="card">
+            <div class="card-body">
+                <h3>API de Imóveis:</h3>
+                <ul>
+                    <li>Listar Imóveis: <code>/imoveis/</code> - Obtém uma lista de todos os imóveis disponíveis.</li>
+                    <li>Detalhes do Imóvel: <code>/imoveis/&lt;int:pk&gt;/</code> - Obtém os detalhes de um imóvel específico com base no ID.</li>
+                    <li>Criar Imóvel: <code>/imoveis/create/</code> - Cria um novo imóvel.</li>
+                    <li>Atualizar Imóvel: <code>/imoveis/update/&lt;int:pk&gt;/</code> - Atualiza as informações de um imóvel existente com base no ID.</li>
+                    <li>Excluir Imóvel: <code>/imoveis/destroy/&lt;int:pk&gt;/</code> - Exclui um imóvel existente com base no ID.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <h3>API de Anúncios:</h3>
+                <ul>
+                    <li>Listar Anúncios: <code>/anuncios/</code> - Obtém uma lista de todos os anúncios disponíveis.</li>
+                    <li>Criar Anúncio: <code>/anuncios/create/</code> - Cria um novo anúncio.</li>
+                    <li>Detalhes do Anúncio: <code>/anuncios/&lt;int:pk&gt;/</code> - Obtém os detalhes de um anúncio específico com base no ID.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-body">
+                <h3>API de Reservas:</h3>
+                <ul>
+                    <li>Listar Reservas: <code>/reservas/</code> - Obtém uma lista de todas as reservas feitas.</li>
+                    <li>Criar Reserva: <code>/reservas/create/</code> - Cria uma nova reserva.</li>
+                    <li>Detalhes da Reserva: <code>/reservas/&lt;int:pk&gt;/</code> - Obtém os detalhes de uma reserva específica com base no ID.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <h2>Ou acesse o link de algumas delas com os botões abaixo</h2>
+        
+        <a href="{% url 'home' %}" class="btn btn-primary">Página Inicial</a>
+        <a href="{% url 'property-list' %}" class="btn btn-primary">Lista de Imóveis</a>
+        <a href="{% url 'property-create' %}" class="btn btn-primary">Criar Imóvel</a>
+        <a href="{% url 'advertisement-list' %}" class="btn btn-primary">Lista de Anúncios</a>
+        <a href="{% url 'advertisement-create' %}" class="btn btn-primary">Criar Anúncio</a>
+        <a href="{% url 'reservation-list' %}" class="btn btn-primary">Lista de Reservas</a>
+        <a href="{% url 'reservation-create' %}" class="btn btn-primary">Criar Reserva</a>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
