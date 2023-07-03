@@ -38,4 +38,4 @@ class ReservationAdmin(admin.ModelAdmin):
         'modified']
     list_filter = ['total_price', 'guest_count', 'created', 'modified']
     list_editable = []
-    populated_fields = {"slug": ("mint_address",)}
+    populated_fields = {"slug": ("reservation_code",)}
